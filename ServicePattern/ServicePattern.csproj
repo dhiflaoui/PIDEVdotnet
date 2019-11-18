@@ -45,5 +45,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pidev.Data\Pidev.Data.csproj">
+      <Project>{3fd60590-9cb4-42ae-a0e7-7ab600473262}</Project>
+      <Name>Pidev.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Pidev.Domain\Pidev.Domain.csproj">
+      <Project>{6a078ab5-3e8e-4b68-a881-33be12cc599d}</Project>
+      <Name>Pidev.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
